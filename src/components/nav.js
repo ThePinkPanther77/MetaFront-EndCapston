@@ -1,10 +1,12 @@
 import logo from './assets/Logo.svg'
+import './style/nav.css'
+
 function Nav(){
     return (
         <div>
             <nav>
+                <div><img className="logo-image" src ={logo} alt='logo'/></div>
                 <ul>
-                    <li><img src ={logo} width={245} height={100} alt='logo'/></li>
                     <li><a href='./home'>Home</a></li>
                     <li><a href='./about'>About</a></li>
                     <li><a href='./menu'>Menu</a></li>

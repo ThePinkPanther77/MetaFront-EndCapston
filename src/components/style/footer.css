@@ -1,0 +1,29 @@
+
+
+.footer {
+    background-color: #495E57;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer article h3{
+    text-align: center;
+    font-family: 'Karla';
+    color:#F4CE14;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer article p{
+    text-align: center;
+    font-family: 'Karla';
+    color:#EDEFEE;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer img{
+    justify-self: center;
+    width: 100px;
+    height: 200px;
+}

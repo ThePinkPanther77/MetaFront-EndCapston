@@ -1,0 +1,327 @@
+*{
+
+}
+
+.hero {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 540px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px 250px 50px;
+}
+
+.hero .main-ground{
+    grid-row: 1/3;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    background-color: #495E57;
+    box-shadow: 4px 4px 4px 4px #EDEFEE;
+
+}
+
+.main-ground h1{
+    margin-left: 150px;
+    margin-bottom: 0;
+    font-family: "Markazi Text";
+    font-size: 64px;
+    color: #F4CE14;
+    font-weight: 500;
+
+}
+
+.main-ground h2{
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Markazi Text";
+    font-size: 40px;
+    color: #EDEFEE;
+    font-weight: 400;
+}
+
+.main-ground p{
+    margin-left: 150px;
+    margin-top: 0;
+    font-family: "Karla";
+    font-size: 18px;
+    color: #EDEFEE;
+    font-weight: 400;
+    width: 246px;
+}
+
+.main-ground button{
+    width: 246px;
+    height: 72px;
+    margin-left: 150px;
+    color:black;
+    background-color: #F4CE14;
+    border-radius: 16px;
+    border: 0px;
+} 
+
+.hero img{
+    width: 458px;
+    height: 445px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+    justify-self: center;
+}
+
+.highLights{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr;
+}
+
+.highLights h1{
+    font-family: "Markazi Text";
+    font-size: 64px;
+    color: #F4CE14;
+    font-weight: 500;
+    justify-self: center;
+}
+
+.highLights button{
+    align-self: center;
+    grid-column: 3/3;
+    grid-row: 1/1;
+    width: 246px;
+    height: 72px;
+    color:black;
+    background-color: #F4CE14;
+    border-radius: 16px;
+    border: 0px;
+    justify-self: center;
+}
+
+.highLights article{
+    width: 290px;
+    height: 540px;
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+    background-color: #EDEFEE;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    justify-self: center;
+}
+
+.highLights img{
+    height: 195px;
+    width: 290px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.highLights article div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 225px 60px;
+    align-items: baseline;
+}
+
+.highLights article div h3{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: inline-block;
+    font-family: "Markazi Text";
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+.highLights article div h4{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    font-family: "Karla";
+    font-size: 16px;
+    color: #EE9972;
+    font-weight: bold;
+    justify-self: right;
+}
+
+.highLights article div p:first-of-type{
+    grid-column: 1/3;
+    grid-row: 2/2;
+    font-family: "Karla";
+    font-size: 16px;
+    color: #495E57;
+    font-weight: 400;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.highLights article div p{
+    grid-column: 1/3;
+    grid-row: 3/3;
+    font-family: "Karla";
+    font-size: 16px;
+    color: #495E57;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.testimonials{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    background-color: #495E57;
+    box-shadow: 2px 2px 2px 2px #EDEFEE;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr;
+}
+
+.testimonials h1{
+    display: flex;
+    height: 70px;
+    grid-row: 1/1;
+    grid-column: 1/5;
+    justify-self: center;
+    font-family: "Markazi Text";
+    font-size: 64px;
+    color: #F4CE14;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.testimonials article{
+    background-color: #EDEFEE;
+    margin: 50px;
+    box-shadow: 2px 2px 2px 2px #EDEFEE;
+}
+
+.testimonials  article h3{
+    font-family: "Karla";
+    font-size: 16px;
+    color: #495E57;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.testimonials article p{
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    color: #495E57;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.about{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 2fr;
+    margin: 150px;
+    margin-top: 15px;
+}
+
+.about h1{
+    margin: 0;
+    font-family: "Markazi Text";
+    font-size: 64px;
+    color: #F4CE14;
+    font-weight: 500;
+    align-self: end;
+}
+
+.about h2{  
+    margin: 0;
+    grid-column: 1/1;
+    font-family: "Markazi Text";
+    font-size: 40px;
+    color: #495E57;
+    font-weight: 400;
+}
+
+.about p{
+    margin: 0;
+    grid-column: 1/1;
+    font-family: "Karla";
+    font-size: 18px;
+    color: #495E57;
+    font-weight: 400;
+    width: 350px;
+}
+
+.about img:first-of-type{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 315px;
+    grid-column: 2/2;
+    grid-row: 1/3;
+}
+
+.about img{
+    width: 275px;
+    margin-top: 75px;
+    height: 315px;
+    grid-column: 2/2;
+    grid-row: 2/4;
+}
+@media screen and (max-width:1249px){
+    .hero{
+        display: grid;
+        grid-template-rows: 70px 50px 100px 75px;
+        grid-template-rows: 1fr;
+    }
+    .hero .main-ground{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        justify-items: center;
+
+    }
+    .main-ground h1, .main-ground h2, .main-ground p, .main-ground button{
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero img{
+        display: none;
+    }
+    .highLights {
+        display: grid;
+        grid-template-rows: repeat(auto-fit, 3fr);
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .highLights h1{
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    .highLights button{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .highLights article{
+        grid-column: 1/1;
+        grid-row: 3/3;
+    }
+    .highLights div{
+        display: none;
+    }
+
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 2fr;
+        align-content: center;
+        justify-items: center;
+    }
+    .about img{
+        display: none;
+    }
+
+}

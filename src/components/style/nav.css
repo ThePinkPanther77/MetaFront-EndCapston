@@ -1,0 +1,39 @@
+img{
+    width: 245px;
+    height: 75px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: baseline;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding: 30px 50px;
+
+}
+
+
+a{
+    color: #495E57;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li :hover{
+    background-color: #495E57;
+    color: #EDEFEE;
+    box-shadow: 0px 4px 4px 4px #EDEFEE;
+}
